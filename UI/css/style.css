@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: #a52a2a;
+    min-height: 70px;
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    padding: 1.2em;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
+.title h1 span{
+    color: coral;
+    border-bottom: .2rem solid coral;
+    cursor: pointer;
+}
+.title h1 span:hover{
+    color: white;
+}
+.signup-form{
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.signin-form{
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+label{
+    margin: .5rem 0;
+}
+input{
+    padding: .5rem;
+    font-size: 1em;
+    text-transform: capitalize;
+    border: 2px solid grey;
+    
+}
+
+button{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: coral;
+    background: brown;
+}
+button:hover{
+    color: white;
+    cursor: pointer;
+}
+p{
+    text-transform: capitalize;
+    padding: .5rem;
+}
+p a{
+    color: coral;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    background: brown;
+}
+p a:hover{
+    color: white;
+    cursor: pointer;
+}
